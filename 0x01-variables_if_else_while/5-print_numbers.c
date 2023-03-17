@@ -1,17 +1,18 @@
 #include <stdio.h>
 /**
- * main - prints numbers from 0 to 10
- *
- * Return: Always 0
- */
+* main - prints number to 9
+*
+* Return: Always 0
+*/
 int main(void)
 {
-int a;
-a = 0;
-do {
-    printf("%d", a);
-    a++;
-} while (a < 10);
-printf("\n");
-return (0);
+int a
+	for
+{ (a = 0);
+		(a < 10);
+		printf("%d", a);
+		a++;
+}
+	printf("\n");
+	return (0);
 }
