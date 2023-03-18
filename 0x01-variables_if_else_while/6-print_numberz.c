@@ -8,7 +8,7 @@ int main(void)
 {
 int a;
 a = 0;
-	while 
+	while
 		(a < 10)
 		{
 			putchar('0' + a);
