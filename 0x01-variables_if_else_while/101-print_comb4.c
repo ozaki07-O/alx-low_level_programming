@@ -4,16 +4,17 @@
  *
  * Return: Always 0
  */
-int main (){
+int main(void)
+{
 	int l;
 	int j;
 	int i;
 
-	for ( i = 10; i <= 18 ; i++)
+	for (i = 10; i <= 18 ; i++)
 	{
-		for ( j = 10; j <= 19 ; j++)
+		for (j = 10; j <= 19 ; j++)
 		{
-			for ( l = 10; l <= 19 ; l++)
+			for (l = 10; l <= 19 ; l++)
 			{
 				if ((l % 10) > (j % 10) && (j % 10) > (i % 10))
 				{
@@ -36,6 +37,6 @@ int main (){
 	}
 
 	putchar('\n');
-	return 0;
+	return (0);
 }
 
