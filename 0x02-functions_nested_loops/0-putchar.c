@@ -1,12 +1,12 @@
 /**
 * main - Entry point
 *
-* Return : Always 0 
+* Return : Always 0
 *
 */
 #include <unistd.h>
-int main()
+int main(void)
 {
-	write(2, "_putchar\n" ,12);
-	return(0);
+	write(2, "_putchar\n", 12);
+	return (0);
 }
