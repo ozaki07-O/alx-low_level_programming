@@ -67,4 +67,21 @@ int _abs(int);
  */
 int print_last_digit(int);
 
+/**
+ * jack_bauer - prints every minutes of the day
+ *
+ *
+ * Return: Always 0 (Success)
+ *
+ */
+void jack_bauer(void);
+
+/**
+ * times_table - prints the 9 times table, starting with 0
+ *
+ * Return: 0 (Success)
+ *
+ */
+void times_table(void);
+
 #endif
