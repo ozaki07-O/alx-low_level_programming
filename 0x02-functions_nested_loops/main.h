@@ -84,4 +84,12 @@ void jack_bauer(void);
  */
 void times_table(void);
 
+/**
+ * add - adds two integers
+ * @int: integers to be added
+ *
+ * Return: sum of two integers
+ */
+int add(int, int);
+
 #endif
