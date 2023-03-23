@@ -1,5 +1,13 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
+
+/**
+ * _putchar - writes the character c to std
+ * @c: parameter to compare
+ * Return: 1 or 0
+ */
+int _putchar(char c);
+
 /**
 * _isupper - main function
 *
@@ -31,4 +39,10 @@ int _isdigit(int c);
  */
 int mul(int a, int b);
 
+/**
+ * print_numbers - Prints the numbers, from 0 to 9
+ *
+ * Return: Always 0
+ */
+void print_numbers(void);
 #endif
