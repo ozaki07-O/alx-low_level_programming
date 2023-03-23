@@ -101,4 +101,11 @@ int add(int, int);
  */
 void print_to_98(int n);
 
+/**
+ * print_times_table - prints the table n times, starting with 0
+ * @n: number of times
+ *
+ */
+void print_times_table(int n);
+
 #endif
