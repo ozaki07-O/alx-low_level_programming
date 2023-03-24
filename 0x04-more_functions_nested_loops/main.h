@@ -69,4 +69,21 @@ void more_numbers(void);
  */
 void print_line(int n);
 
+/**
+ * print_diagonal - prints a diagonal line
+ * @n: is the diagonal lines length by \
+ *
+ * Return: diagona line
+ *
+ */
+void print_diagonal(int n);
+
+/**
+ * print_square - print even rows and culumns using #
+ * @size: number of # in each row and column
+ *
+ * Return: square shape of #
+ */
+void print_square(int size);
+
 #endif
