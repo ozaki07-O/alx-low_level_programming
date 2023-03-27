@@ -9,16 +9,22 @@ int _strlen(char *s)
 {
 	int i;
 
-	for (i = 1; i > 0;)
+	if(*(s + 0) == 0)
 	{
-		if (*(s + i) == 0)
-		{
-			break;
-		}
-		else
-		{
-			i++;
-		}
+		return (0);
 	}
-	return (i);
+	{
+		for (i = 1; i > 0;)
+		{
+			if (*(s + i) == 0)
+			{
+				break;
+			}
+			else
+			{
+				i++;
+			}
+		}
+		return (i);
+	}
 }
