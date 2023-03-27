@@ -16,10 +16,9 @@ void print_rev(char *s)
 	{
 		if (*(s + i) == '\0')
 		{
-			j = i;
-			for (j = i; j >= 0; j--)
+			for (j = i - 1; j >= 0; j--)
 			{
-				str = *(s+ j);
+				str = *(s + j);
 				_putchar(str + '\0');
 			}
 			break;
