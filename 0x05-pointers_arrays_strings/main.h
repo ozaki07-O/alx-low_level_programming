@@ -73,4 +73,13 @@ void puts2(char *str);
  */
 void puts_half(char *str);
 
+/**
+ * print_array - print element of array
+ * @a: array
+ * @n: number of element
+ *
+ * Return 0
+ */
+void print_array(int *a, int n);
+
 #endif
