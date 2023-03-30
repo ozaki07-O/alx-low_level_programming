@@ -53,4 +53,13 @@ void reverse_array(int *a, int n);
  * Return: STRING
  */
 char *string_toupper(char *s);
+
+/**
+ * cap_string - capitalizes every word of a string
+ * @s: string
+ *
+ * Return: capitalized string
+ */
+char *cap_string(char *s);
+
 #endif
