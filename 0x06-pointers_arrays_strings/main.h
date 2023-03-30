@@ -19,4 +19,14 @@ char *_strcat(char *dest, char *src);
  */
 char *_strncat(char *dest, char *src, int n);
 
+/**
+ * _strncpy - copies a string to a strings
+ * @dest: first string
+ * @src: second string
+ * @n: amount of charachters
+ *
+ * Return: a pointer to string dest
+ */
+char *_strncpy(char *dest, char *src, int n);
+
 #endif
