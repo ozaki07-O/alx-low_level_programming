@@ -9,4 +9,14 @@
  */
 char *_strcat(char *dest, char *src);
 
+/**
+ * _strncat - concatenates two strings
+ * @dest: first string
+ * @src: second string
+ * @n:
+ *
+ * Return: a pointer to string dest
+ */
+char *_strncat(char *dest, char *src, int n);
+
 #endif
