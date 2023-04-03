@@ -2,6 +2,15 @@
 #define _MAIN_H_
 
 /**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c);
+
+/**
  * _memset - fill memory with a contant byte
  * @s: array to set
  * @b: the comstant value
@@ -29,5 +38,13 @@ char *_memcpy(char *dest, char *src, unsigned int n);
  * Return: the first occurrence of the character c
  */
 char *_strchr(char *s, char c);
+
+/**
+ * print_chessboard - prints the chessboard
+ * @a: order
+ *
+ * Return: chessboard
+ */
+void print_chessboard(char (*a)[8]);
 
 #endif
