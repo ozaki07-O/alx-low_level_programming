@@ -20,4 +20,14 @@ char *_memset(char *s, char b, unsigned int n);
  * Return: a pointer to dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n);
+
+/**
+ * _strchr - locates a character in a string
+ * @s: string to locate from
+ * @c: character to locate
+ *
+ * Return: the first occurrence of the character c
+ */
+char *_strchr(char *s, char c);
+
 #endif
