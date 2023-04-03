@@ -11,5 +11,13 @@
  */
 char *_memset(char *s, char b, unsigned int n);
 
-
+/**
+ * _memcpy - copies memory area
+ * @dest: destanation memory
+ * @src: the memory to be copied
+ * @n: number of bytes
+ *
+ * Return: a pointer to dest
+ */
+char *_memcpy(char *dest, char *src, unsigned int n);
 #endif
