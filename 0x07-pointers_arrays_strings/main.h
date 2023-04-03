@@ -39,6 +39,9 @@ char *_memcpy(char *dest, char *src, unsigned int n);
  */
 char *_strchr(char *s, char c);
 
+
+
+
 /**
  * print_chessboard - prints the chessboard
  * @a: order
@@ -47,4 +50,10 @@ char *_strchr(char *s, char c);
  */
 void print_chessboard(char (*a)[8]);
 
+/**
+ * set_string - sets the value of a pointer to a char
+ * @s: string to set
+ * @to: value to set to
+ */
+void set_string(char **s, char *to);
 #endif
