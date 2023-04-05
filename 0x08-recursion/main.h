@@ -17,7 +17,7 @@ int _putchar(char c);
 void _puts_recursion(char *s);
 
 /**
- * _puts_rev_recursion - prints a string by recursion
+ * _print_rev_recursion - prints a string by recursion
  * @s: string to print
  *
  * Return: void
