@@ -48,4 +48,12 @@ int factorial(int n);
  */
 int _pow_recursion(int x, int y);
 
+/**
+ * _int _sqrt_recursion - natural square root of n
+ * @n: number
+ *
+ * Return: n
+ */
+int _sqrt_recursion(int n);
+
 #endif
