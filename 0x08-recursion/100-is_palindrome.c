@@ -7,9 +7,9 @@
  *
  * Return: palindrom or not
  */
-int helper(int i,char *s)
+int helper(int i, char *s)
 {
-	if(*s)
+	if (*s)
 	{
 		if (*s != s[_strlen_recursion(s) - i])
 			return (0);
@@ -26,6 +26,6 @@ int helper(int i,char *s)
 int is_palindrome(char *s)
 {
 	int i = 1;
-	
+
 	return (helper(i, s));
 }
