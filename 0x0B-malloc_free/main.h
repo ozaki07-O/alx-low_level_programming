@@ -28,7 +28,7 @@ char *_strdup(char *str);
 char *str_concat(char *s1, char *s2);
 
 /**
- * alloc_grid -
+ * alloc_grid - creat matrix
  * @width: width of the grid
  * @height: height of the grid
  *

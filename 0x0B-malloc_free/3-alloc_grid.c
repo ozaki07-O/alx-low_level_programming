@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * alloc_grid - 
+ * alloc_grid - creat matrix
  * @width: width of the grid
  * @height: height of the grid
  *
@@ -22,7 +22,7 @@ int **alloc_grid(int width, int height)
 
 	for (i = 0; i < height; i++)
 	{
-		t[i] = (int*)malloc(sizeof(int) * width);
+		t[i] = (int *)malloc(sizeof(int) * width);
 		if (t[i] == NULL)
 		{
 			for (j = 0; j < i; j++)
@@ -34,6 +34,6 @@ int **alloc_grid(int width, int height)
 	}
 	for (i = 0; i < height; i++)
 		for (j = 0; j < width; j++)
-			t[i][j]= 0;
+			t[i][j] = 0;
 	return (t);
 }
