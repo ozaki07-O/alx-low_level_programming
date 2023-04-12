@@ -10,4 +10,12 @@
  */
 char *create_array(unsigned int size, char c);
 
+/**
+ * _strdup - duplicate string
+ * @str: string
+ *
+ * Return: pointer to newly duplicate string
+ */
+char *_strdup(char *str);
+
 #endif
