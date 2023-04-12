@@ -27,4 +27,13 @@ char *_strdup(char *str);
  */
 char *str_concat(char *s1, char *s2);
 
+/**
+ * alloc_grid -
+ * @width: width of the grid
+ * @height: height of the grid
+ *
+ * Return: array 2D
+ */
+int **alloc_grid(int width, int height);
+
 #endif
