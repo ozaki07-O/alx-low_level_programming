@@ -33,4 +33,62 @@ void swap_int(int *a, int *b);
  */
 int _strlen(char *s);
 
+/**
+ * _puts - prints a string
+ * @str: string
+ *
+ * Return: 0
+ */
+void _puts(char *str);
+
+/**
+ * print_rev - prints string in reverse
+ * @s: string
+ *
+ * Return: 0
+ */
+void print_rev(char *s);
+
+/**
+ * rev_string - reverse a string
+ * @s: string
+ *
+ * Return: 0
+ */
+void rev_string(char *s);
+
+/**
+ * puts2 - prints every other character of a string
+ * @str: string
+ *
+ * Return 0
+ */
+void puts2(char *str);
+
+/**
+ * puts_half - prints half of a string
+ * @str: string
+ *
+ * Return: 0
+ */
+void puts_half(char *str);
+
+/**
+ * print_array - print element of array
+ * @a: array
+ * @n: number of element
+ *
+ * Return 0
+ */
+void print_array(int *a, int n);
+
+/**
+ * _strcpy - copies string
+ * @src: pointer to string to be copied
+ * @dest: pointer to string
+ *
+ * Return: the pointer to dest
+ */
+char *_strcpy(char *dest, char *src);
+
 #endif
