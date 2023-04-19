@@ -16,4 +16,13 @@ int _putchar(char c);
  *
  */
 void print_name(char *name, void (*f)(char *));
+
+/**
+ * array_iterator - iterates through array
+ * @array: array to go through
+ * @size: size of array
+ * @action: action function to take
+ */
+void array_iterator(int *array, size_t size, void (*action)(int));
+
 #endif
