@@ -25,4 +25,14 @@ void print_name(char *name, void (*f)(char *));
  */
 void array_iterator(int *array, size_t size, void (*action)(int));
 
+/**
+ * int_index - search for integer
+ * @array: where to search
+ * @size: size of array
+ * @cmp: search function
+ * Return: 0
+ *
+ */
+int int_index(int *array, int size, int (*cmp)(int));
+
 #endif
