@@ -24,6 +24,11 @@ int sum_them_all(const unsigned int n, ...);
  */
 void print_numbers(const char *separator, const unsigned int n, ...);
 
+/**
+ * print_strings - print string with seprarator
+ * @separator: string between strings
+ * @n: number of strings
+ */
 void print_strings(const char *separator, const unsigned int n, ...);
 
 void print_all(const char * const format, ...);
