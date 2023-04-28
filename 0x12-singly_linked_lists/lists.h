@@ -10,9 +10,9 @@
  */
 typedef struct list_s
 {
-    char *str;
-    unsigned int len;
-    struct list_s *next;
+	char *str;
+	unsigned int len;
+	struct list_s *next;
 } list_t;
 
 /**
@@ -26,7 +26,7 @@ int _putchar(char c);
 /**
  * print_list - prints elements of a list
  * @h: pointer to the list
- * Return:
+ * Return: elements
  */
 size_t print_list(const list_t *h);
 #endif
