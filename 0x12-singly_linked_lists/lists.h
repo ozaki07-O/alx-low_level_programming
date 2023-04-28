@@ -23,5 +23,10 @@ typedef struct list_s
  * On error, -1 is returned, and errno is set appropriately.
  */
 int _putchar(char c);
-
+/**
+ * print_list - prints elements of a list
+ * @h: pointer to the list
+ * Return:
+ */
+size_t print_list(const list_t *h);
 #endif
