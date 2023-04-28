@@ -29,4 +29,12 @@ int _putchar(char c);
  * Return: elements
  */
 size_t print_list(const list_t *h);
+
+/**
+ * list_len - prints number of elements of a list
+ * @h: pointer to the list
+ * Return: lenght
+ */
+size_t list_len(const list_t *h);
+
 #endif
