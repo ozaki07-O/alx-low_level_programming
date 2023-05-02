@@ -21,5 +21,10 @@ typedef struct listint_s
  * Return: elements
  */
 size_t print_listint(const listint_t *h);
-
+/**
+ * listint_len - prints number of elements of a list
+ * @h: pointer to the list
+ * Return: lenght
+ */
+size_t listint_len(const listint_t *h);
 #endif
