@@ -42,4 +42,9 @@ listint_t *add_nodeint(listint_t **head, const int n);
  */
 listint_t *add_nodeint_end(listint_t **head, const int n);
 
+/**
+ * free_listint - frees a list
+ * @head: head
+ */
+void free_listint(list_t *head);
 #endif
