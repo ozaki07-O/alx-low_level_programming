@@ -34,4 +34,12 @@ size_t listint_len(const listint_t *h);
  * Return: new node
  */
 listint_t *add_nodeint(listint_t **head, const int n);
+/**
+ * add_nodeint_end - adds a new node at the end
+ * @head: head
+ * @n: integer
+ * Return: new node
+ */
+listint_t *add_nodeint_end(listint_t **head, const int n);
+
 #endif
