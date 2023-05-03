@@ -27,4 +27,11 @@ size_t print_listint(const listint_t *h);
  * Return: lenght
  */
 size_t listint_len(const listint_t *h);
+/**
+ * add_nodeint - adds a new node
+ * @head: first
+ * @n: integer
+ * Return: new node
+ */
+listint_t *add_nodeint(listint_t **head, const int n);
 #endif
