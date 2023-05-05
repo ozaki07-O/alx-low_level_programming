@@ -22,4 +22,13 @@ unsigned int binary_to_uint(const char *b);
  * @n: integer
  */
 void print_binary(unsigned long int n);
+
+/**
+ * get_bit - gets the value of bit at index
+ * @n: int number
+ * @index: index given
+ * Return: bit at index
+ */
+int get_bit(unsigned long int n, unsigned int index);
+
 #endif
