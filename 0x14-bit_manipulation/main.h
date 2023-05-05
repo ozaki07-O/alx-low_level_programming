@@ -30,5 +30,10 @@ void print_binary(unsigned long int n);
  * Return: bit at index
  */
 int get_bit(unsigned long int n, unsigned int index);
+/**
+ * set_bit - sets a bit
+ * @n: integer
+ */
+int set_bit(unsigned long int *n, unsigned int index);
 
 #endif
