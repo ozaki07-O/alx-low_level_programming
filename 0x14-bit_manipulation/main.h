@@ -37,5 +37,11 @@ int get_bit(unsigned long int n, unsigned int index);
  * Return: 1 or -1
  */
 int set_bit(unsigned long int *n, unsigned int index);
-
+/**
+ * clear_bit - sets a bit to 1
+ * @n: integer
+ * @index: bit to clear
+ * Return: 1 or -1
+ */
+int clear_bit(unsigned long int *n, unsigned int index);
 #endif
