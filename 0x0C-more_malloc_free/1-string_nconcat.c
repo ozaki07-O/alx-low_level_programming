@@ -15,6 +15,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int c = 0;
 	unsigned int d = 0;
 
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
 	while (s1[c] != 0)
 		c++;
 	while (s2[d] != 0)
