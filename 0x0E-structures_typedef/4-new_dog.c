@@ -27,7 +27,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (a == NULL)
 	{
 		free(ndog);
-		return(NULL);
+		return (NULL);
 	}
 	for (i = 0; i < len1; i++)
 		a[i] = name[i];
