@@ -17,10 +17,10 @@ void print_binary(unsigned long int n)
 		return;
 	}
 	if (n == 0)
-        {
-                _putchar('0');
-                return;
-        }
+	{
+		_putchar('0');
+		return;
+	}
 	while (i > 0)
 	{
 		if ((i & n) == 0)
