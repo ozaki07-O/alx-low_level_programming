@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-/*
+/**
  * binary_to_uint - convert a binary to uint
  * @b: binary
  *
