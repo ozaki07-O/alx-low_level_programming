@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /*
- * flip_bits - number of bits needed to be fliped
+ * flip_bits - number of bits needed to be flipped
  * @n: first number
  * @m: second number
  *
@@ -18,5 +18,5 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 		count += xor_result & 1;
 		xor_result >>= 1;
 	}
-	return count;
+	return (count);
 }
