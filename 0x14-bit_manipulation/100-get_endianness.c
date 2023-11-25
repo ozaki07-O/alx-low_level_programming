@@ -10,5 +10,5 @@ int get_endianness()
 {
 	int num = 1;
 
-	return (*(cahr *)&num);
+	return (*(char *)&num);
 }
