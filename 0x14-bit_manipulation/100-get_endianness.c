@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * get_indianness - checks the endianness
+ * get_endianness - checks the endianness
  *
  * Return: number of bits
 */
-int get_endianness()
+int get_endianness(void)
 {
 	int num = 1;
 
