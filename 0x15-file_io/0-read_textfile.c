@@ -3,9 +3,9 @@
 /**
  * read_textfile - reads a text file and prints it
  * @filename: file name
- * @leters: number of letters to read
+ * @letters: number of letters to read
  *
- * Returns: letters number
+ * Return: letters number
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -17,7 +17,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	file = open(filename, O_RDONLY);
 	if (file == -1)
-		return(0);
+		return (0);
 	bytes = read(file, &buf[0], letters);
 	bytes = write(STDOUT_FILENO, &buf[0], bytes);
 	close(file);
